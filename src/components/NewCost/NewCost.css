@@ -1,0 +1,21 @@
+.new-cost {
+    margin: 0 auto 1rem;
+    min-width: 38rem;
+}
+
+.new-cost button {
+    color: white;
+    margin: 0 0.5rem 0.5rem;
+}
+
+.new-cost__add-button {
+    background-color: rgb(113, 64, 124);
+    box-shadow: 0 2px 7px rgba(131, 130, 130, 0.5);
+    width: fit-content;
+    align-self: center;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}

@@ -1,0 +1,51 @@
+.new-cost__form {
+    padding: 0;
+    margin: 0 0.5rem 0.5rem;
+}
+
+.new-cost__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.new-cost__control {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-cost__control label {
+    align-self: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.new-cost__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(237, 231, 231);
+    min-height: 1.5rem;
+    min-width: 8rem;
+    max-width: 100%;
+}
+
+.new-cost__actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.new-cost__actions button {
+    font: inherit;
+    cursor: pointer;
+    border: 1px solid rgb(113, 64, 124);
+    background-color: rgb(113, 64, 124);
+    color: white;
+    border-radius: 10px;
+    padding: 0.3rem 1rem 0.5rem;
+}

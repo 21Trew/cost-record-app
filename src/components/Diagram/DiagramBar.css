@@ -1,0 +1,30 @@
+.diagram-bar {
+    border-radius: 5px 5px 0 0;
+    width: 1.5rem;
+}
+
+.diagram-bar__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    background-color: rgba(113, 64, 124, 0.474);
+    border: 1px solid rgba(113, 64, 124, 0.474);
+    overflow: hidden;
+}
+
+.diagram-bar__fill {
+    width: 100%;
+    background-color: rgb(113, 64, 124);
+    border-radius: 5px 5px 0 0;
+    transition: all 0.3s ease-out;
+}
+
+.diagram-bar__label {
+    color: rgba(94, 16, 111, 1);
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: center;
+}
